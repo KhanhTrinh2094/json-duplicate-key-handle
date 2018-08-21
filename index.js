@@ -301,8 +301,8 @@ function _findObject(str, startInd, allowDuplicatedKeys, parse) {
 
     if (!allowDuplicatedKeys) {
       if(keys.indexOf(key.value) !== -1) {
-        key.value = key.value + '1';
-        // throw _syntaxError(str, key.end, 'duplicated keys "' + key.value + '"');
+        //key.value = key.value + '1';
+        throw _syntaxError(str, key.end, 'duplicated keys "' + key.value + '"');
       }
     }
     keys.push(key.value);
