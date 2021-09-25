@@ -11,10 +11,10 @@
     "backslash": "^0.2.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^2.2.0",
-    "mocha": "^2.4.5"
+    "chai": "^4.3.4",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^8.0.0",
+    "mocha": "^9.1.2"
   },
   "homepage": "https://github.com/KhanhTrinh2094/json-duplicate-key-handl",
   "keywords": [
